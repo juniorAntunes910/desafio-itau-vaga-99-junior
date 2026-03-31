@@ -2,7 +2,7 @@ package com.desafio_itau_vaga_99_junior.demo.Entity;
 
 import java.time.OffsetDateTime;
 
-public class transacaoEntity {
+public class TransacaoEntity {
     private Long id;
     private double valor;
     private OffsetDateTime dataHora;
