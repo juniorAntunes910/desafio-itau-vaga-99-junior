@@ -1,5 +1,7 @@
 package com.desafio_itau_vaga_99_junior.demo.Entity;
 
+import com.desafio_itau_vaga_99_junior.demo.Dto.TransacaoResponse;
+
 import java.time.OffsetDateTime;
 
 public class TransacaoEntity {
@@ -15,7 +17,7 @@ public class TransacaoEntity {
         this.id = id;
     }
 
-    public double getValor() {
+    public static double getValor() {
         return valor;
     }
 
@@ -30,6 +32,7 @@ public class TransacaoEntity {
     public void setDataHora(OffsetDateTime dataHora) {
         this.dataHora = dataHora;
     }
+
 }
 
 

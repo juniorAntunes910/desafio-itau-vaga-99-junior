@@ -15,6 +15,9 @@ public class TransacaoRepository {
         listTransacao.add(transacaoResponse);
     }
     public  void apagarList(){
-        listTransacao = null;
+        listTransacao.clear();
+    }
+    public List<TransacaoResponse> retornaLista(){
+        return listTransacao;
     }
 }
