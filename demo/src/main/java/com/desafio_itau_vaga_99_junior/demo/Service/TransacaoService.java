@@ -32,4 +32,8 @@ public class TransacaoService {
         TransacaoResponse response = new TransacaoResponse(dto);
         return response;
     }
+
+    public void apagarList(){
+        transacaoRepository.apagarList();
+    }
 }

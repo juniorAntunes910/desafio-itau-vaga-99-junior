@@ -14,4 +14,7 @@ public class TransacaoRepository {
     public static void addList(TransacaoResponse transacaoResponse){
         listTransacao.add(transacaoResponse);
     }
+    public  void apagarList(){
+        listTransacao = null;
+    }
 }
